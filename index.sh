@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Version
-sh_v="1.2.0"
+version="1.0.0"
 
 # Define Colors for Output
 GREEN='\033[0;32m'
@@ -117,7 +117,7 @@ rollback_ssh_config() {
 
 # Main Menu
 while true; do
-    echo -e "${YELLOW}=== Secure User & SSH Setup v${sh_v} ===${NC}"
+    echo -e "${YELLOW}=== Secure User & SSH Setup v${version} ===${NC}"
     echo "1) Update system packages"
     echo "2) Install dependencies"
     echo "3) Create a new user"
